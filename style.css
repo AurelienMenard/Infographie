@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'aroma';
+    src: url('font/Aroma.ttf');
+}
+@font-face {
+    font-family: 'sst';
+    src: url('font/SST.TTF');
+}
+@font-face {
+    font-family: 'arial';
+    src: url('font/Arial.ttf');
+}
+body{
+    margin:0px;
+    width:100vw;
+    background-color: #0ebaae;
+    overflow-x: hidden;
+}
+.entete{
+    background-color: #0ebaae;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.txtentete{
+    width: 50%;
+    height: 30%;
+    font-family: 'sst';
+}
+#txtentete1{
+    width: 100%;
+    height: 25%;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+#txtentete2{
+    width: 100%;
+    height: 60%;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    color:#094652;
+}
+.colone1, .colone3{
+    background-color: #0e4351;
+    width:100vw;
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.colone2, .colone4{
+    background-color: #18606c;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.colone2{
+    height:90vh;
+}
+.colone4{
+    height:80vh;
+}
+.encadre1, .encadre5{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.encadre1{
+    background-color: #08303c;
+    width:70%;
+    height:40%;
+}
+.encadre5{
+    background-color: #001c27;
+    gap:30px;
+    width:90%;
+    height:40%;
+}
+.encadre3{
+    width:90%;
+    height:50%;
+    background-color: #0e4351;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.encadre7{
+    width:70%;
+    height:40%;
+    background-color: #08303c;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.encadre2, .encadre4, .encadre6, .encadre8{
+    margin-top: 5%;
+    width:90%;
+    height:40%;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.encadre2{
+    background-color: #082f3b;
+}
+.encadre4, .encadre8{
+    background-color: #0e4351;
+}
+.encadre6{
+    background-color: #08303c;
+}
+
+
+#rtwa, #spw, #ca, #mfd{
+    color:#e2973e;
+    font-family: 'sst';
+    margin-left:5%;
+
+}
+#txt1, #txt2, #txt3, #txt4{
+    color:white;
+    font-family: 'aroma';
+    margin-left:5%;
+}
+
+#engrenage, #atome, #atonium, #cloud{
+    width:90px;
+}
+
+
+#engrenage{
+    position: absolute; left: 58%;
+}
+#atonium{
+    position: absolute; top:65%; left:10%;
+}
+#cloud{
+    position: absolute; top:65%; left: 55%;
+}
+
+#groupe1, #groupe2{
+    width:300px;
+}
+#groupe2{
+    margin-top: 50px;
+}
+
+#web{
+    width:50%;
+    position:relative; right:18%;
+}
+#hero1{
+    width:40%;
+    position:relative; top:26%; right:20%;
+}
+
+
+#pc{
+    width:40%;
+    position: relative; bottom: 15%;
+}
+#superman{
+    width:40%;
+    position: relative; right:25%;
+    animation: stick 2.5s infinite linear;
+}
+@keyframes stick {
+    0% {position:relative;left:-20%;}
+    50% {position:relative;left: 40%;}
+    100% {position:relative;left: 800%;}
+}
+#chatbot{
+    width:140px;
+    height:120px;
+}
+#ai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    width:130px;
+    height:130px;
+    background-color: #f7941d;
+    font-family: 'arial';
+    animation: ai 3s infinite alternate;
+    
+}
+@keyframes ai {
+    0%  {
+      border-radius:0 0 0 0;
+    }
+    33%  {
+      border-radius:10% 10% 10% 10%;  
+    }
+    66%  {
+      border-radius:25% 25% 25% 25%;
+    }
+    100%  { 
+      border-radius:40% 40% 40% 40%;
+    }
+}
+#tel{
+    width:140px;
+    height:170px;
+    z-index: 2;
+    position: relative; left:-20%;
+}
+#hero{
+    width:140px;
+    height:170px;
+    position: relative; left:-15%; top:10%;
+    z-index: 1;
+}
+#engrenage, #atome, #atonium{
+    animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+#cloud{
+    animation: cloud 5s infinite linear;
+}
+@keyframes cloud {
+    0% {margin-top: 3%;}
+    25% {margin-top: 0%;}
+    50% {margin-top: 3%;}
+    75%{margin-top: 0%;}
+    100% {margin-top: 3%;}
+}
+#footer{
+    width:100vw;
+    height:10vh;
+    background-color: #0ebaae;
+}

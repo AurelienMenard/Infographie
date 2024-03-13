@@ -1,0 +1,148 @@
+@media screen and (min-width: 583px) {
+
+    #pc{
+        width:32%;
+    }
+    #superman{
+        width:32%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    #tel{
+        position: relative; left:-10%;
+    }
+    #hero{
+        position: relative; left:-35%; top:24%;
+    }
+    #groupe1{
+        width:55%;
+        position: absolute;top:20%; right:48%;
+    }
+    #groupe2{
+        width:55%;
+        position:relative; left:15%; bottom:12%;
+    }
+    #atome{
+        position:absolute; left:17%; top:5%;
+    }
+    #engrenage{
+        position:absolute; left:27%; top:4%;
+    }
+    #atonium{
+        position: absolute; left: 65%; top:5%;
+    }
+    #cloud{
+        position: absolute; top:5%; left:80%;
+    }
+    #pc{
+        width:22%;
+    }
+    #superman{
+        width:22%;
+    }
+    #hero1{
+        position:relative; top:18%; right:25%;
+    }
+    #web{
+        width:40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #pc{
+        width:35%;
+    }
+    #superman{
+        width:35%;
+    }
+   .encadre4, .encadre6, .encadre8{
+        margin-top: 0%;
+        width:40%;
+        height:43%;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    .encadre2{
+        width:40%;
+        height:58%;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        margin-top: 0%;
+    }
+    .encadre1, .encadre5, .encadre7{
+        width:30%;
+        height:60%;
+    }
+    .encadre3{
+        width:35%;
+        height:60%;
+    }
+    .colone1, .colone3{
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+    }
+    .colone2, .colone4{
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap:50px;
+    }
+    #groupe1{
+        width:55%;
+        position: absolute; right:48%; top:22%;
+    }
+    #groupe2{
+        width:60%;
+        position:relative; left:15%; top:0%;
+    }
+    #txtentete1{
+        font-size:4em;
+    }
+    #txtentete2{
+        font-size:5em;
+    }
+    #atome{
+        width:160px;
+        position: absolute; left:7%; top:5%;
+    }
+    #engrenage{
+        width:140px;
+        position:absolute; left:19%; top:5%;
+    }
+    #atonium{
+        width:100px;
+        position: absolute; left:70%; top:10%;
+    }
+    #cloud{
+        width:150px;
+        position:absolute; left:85%; top:10%;
+    }
+    #hero1{
+        position: relative;top:24%;
+    }
+    #hero{
+        position:relative; top:29%; left:-35%;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .encadre4, .encadre6, .encadre8{
+        margin-top: 0%;
+        width:40%;
+        height:20%;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    .encadre2{
+        width:40%;
+        height:30%;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        margin-top: 0%;
+    }
+}
